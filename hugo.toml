@@ -76,9 +76,9 @@ timeout = "300s"
     # url_latest_version = "https://bellflight.github.io/AVR-Docs"
 
     # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-    github_repo = "https://github.com/bellflight/AVR-Docs"
+    github_repo = "https://github.com/the-avr/AVR-Docs"
     # Discourse base URL
-    discourse_forums          = "https://www.bellavrforum.org"
+    discourse_forums          = "https://www.forum.theavr.org"
     # Discourse category to pre-assign to issues
     discourse_forums_category = "technical-support/documentation-feedback"
 
@@ -136,10 +136,10 @@ timeout = "300s"
     icon = "fa fa-helicopter"
     desc = "Welcome to the Future of Flight"
 
-[[params.links.user]]
-    name = "Careers"
-    url  = "https://textron.taleo.net/careersection/bell/jobsearch.ftl?lang=en"
-    icon = "fa fa-briefcase"
+# [[params.links.user]]
+#     name = "Careers"
+#     url  = "https://textron.taleo.net/careersection/bell/jobsearch.ftl?lang=en"
+#     icon = "fa fa-briefcase"
 
 # [[menu.main]]
 #     name   = "GitHub"
@@ -151,4 +151,4 @@ timeout = "300s"
     name   = "Forums"
     weight = 100
     pre    = "<i class='fa fa-users'></i>"
-    url    = "https://bellavrforum.org/"
+    url    = "https://forum.theavr.org/"
